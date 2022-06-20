@@ -1,0 +1,16 @@
+K:\_\SpigotBuilder-master\src\SpigotBuilder\bin\Release\SpigotBuilder.exe.config
+K:\_\SpigotBuilder-master\src\SpigotBuilder\bin\Release\SpigotBuilder.exe.manifest
+K:\_\SpigotBuilder-master\src\SpigotBuilder\bin\Release\SpigotBuilder.application
+K:\_\SpigotBuilder-master\src\SpigotBuilder\bin\Release\SpigotBuilder.exe
+K:\_\SpigotBuilder-master\src\SpigotBuilder\bin\Release\SpigotBuilder.pdb
+K:\_\SpigotBuilder-master\src\SpigotBuilder\obj\Release\SpigotBuilder.csproj.AssemblyReference.cache
+K:\_\SpigotBuilder-master\src\SpigotBuilder\obj\Release\SpigotBuilder.csproj.SuggestedBindingRedirects.cache
+K:\_\SpigotBuilder-master\src\SpigotBuilder\obj\Release\SpigotBuilder.Form1.resources
+K:\_\SpigotBuilder-master\src\SpigotBuilder\obj\Release\SpigotBuilder.Properties.Resources.resources
+K:\_\SpigotBuilder-master\src\SpigotBuilder\obj\Release\SpigotBuilder.csproj.GenerateResource.cache
+K:\_\SpigotBuilder-master\src\SpigotBuilder\obj\Release\SpigotBuilder.csproj.CoreCompileInputs.cache
+K:\_\SpigotBuilder-master\src\SpigotBuilder\obj\Release\SpigotBuilder.TrustInfo.xml
+K:\_\SpigotBuilder-master\src\SpigotBuilder\obj\Release\SpigotBuilder.exe.manifest
+K:\_\SpigotBuilder-master\src\SpigotBuilder\obj\Release\SpigotBuilder.application
+K:\_\SpigotBuilder-master\src\SpigotBuilder\obj\Release\SpigotBuilder.exe
+K:\_\SpigotBuilder-master\src\SpigotBuilder\obj\Release\SpigotBuilder.pdb

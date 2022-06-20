@@ -148,7 +148,7 @@ namespace SpigotBuilder
 
                 //make command
                 string cd_command = @"cd " + file;
-                string build_command = @"java -jar BuildTools.jar"
+                string build_command = textBox2.Text + @" -jar BuildTools.jar"
                     + " --rev "
                     + comboBox1.Text;
 
@@ -280,6 +280,50 @@ namespace SpigotBuilder
             }
 
             button2.Enabled = true;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://forum.civa.jp/viewtopic.php?f=39&t=109");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "Java|java.exe";
+            ofd.ShowDialog();
+
+            textBox2.Text = '"'+ofd.FileName+'"';
+        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 
