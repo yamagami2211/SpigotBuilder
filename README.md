@@ -1,22 +1,26 @@
 # SpigotBuilder
-Instead of BuildToolsGUI
+Seaoftrees08 氏が作成した [SpigotBuilder](https://github.com/Seaoftrees08/SpigotBuilder) を改造したものです。
 
-# Operating environment
-.NET Framework 4.7.2
+![](https://imgix.yama2211.jp/SpigotBuilder/image2.png)
 
-# License
-[MITLicense](https://opensource.org/licenses/MIT)
+[改造版SpigotBuilder](https://d.yama2211.jp/SpigotBuilder/)
 
-# Download
-You can get this software from [here](https://github.com/Seaoftrees/SpigotBuilder/blob/master/src/SpigotBuilder/bin/Release/app.publish/SpigotBuilder.exe?raw=true).
+## 改造点
++ Java.exeのPathを指定できるように (Select Java.exe)でjava.exeを選択することでPathが自動で入ります。)
++ BuildToolsのコマンドラインフラグを指定できるようにした
 
-# Updates
-- 2020/07/2
-  - FIX Wget Connection is not possible
-  - FIX Button remains disabled on error
-- 2020/07/1
-  - FIX: HTTP Connection is not possible
-  - ADD: Version sort function
-  - CHANGE: Operating enviroment to 4.7.2 from 4.6.1
-- 2018/4/1
-  - FirstCommit
+### コマンドラインフラグについて
++ disable-certificate-check: HTTPS証明書チェックを無効にする
++ disable-java-check: Javaのバージョンチェックをしない
++ dont-update: Gitからアップデートをプルしない
++ skip-compile: コンパイルをスキップする
++ generate-docs: JavaDocを生成する(Bukkit用にのみ生成する)
++ compile craftbukkit: craftbukkitをビルドする
++ compile-if-changed: BuildToolsリポジトリで変更が検知された場合にのみコンパイルする。
+
+# 改造版ダウンロード
+[最新版](https://github.com/yamagami2211/SpigotBuilder/blob/master/src/SpigotBuilder/bin/Release/SpigotBuilder.exe?raw=true) / [Miror](https://file.yama2211.jp/SpigotBuilder/SpigotBuilder.exe)  
+過去のバージョンはコミットの履歴から探してください。
+
+# 本家版
+https://github.com/Seaoftrees08/SpigotBuilder
