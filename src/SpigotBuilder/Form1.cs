@@ -123,6 +123,11 @@ namespace SpigotBuilder
         //download completed
         private async void DownloadCompleted(object sender, AsyncCompletedEventArgs e)
         {
+            // textBox2(JavaPath)
+            if (textBox2.Text == null) {
+                textBox2.Text = "java";
+            }
+
             if(e.Error == null)
             {
                 textBox1.AppendText("download completed!\r\n");
@@ -146,11 +151,23 @@ namespace SpigotBuilder
 
                 textBox1.AppendText("Spigot Build Start!\r\n \r\n");
 
+                //CheckBox BuildTools Flags
+                string Flags = "";
+                if (checkBox1.Checked) Flags += " --disable-certificate-check";
+                if (checkBox2.Checked) Flags += " --disable-java-check";
+                if (checkBox3.Checked) Flags += " --dont-update";
+                if (checkBox4.Checked) Flags += " --generate-source";
+                if (checkBox5.Checked) Flags += " --generate-docs";
+                if (checkBox6.Checked) Flags += " --compile craftbukkit";
+                if (checkBox6.Checked) Flags += " --compile-if-changed";
+
                 //make command
                 string cd_command = @"cd " + file;
                 string build_command = textBox2.Text + @" -jar BuildTools.jar"
                     + " --rev "
-                    + comboBox1.Text;
+                    + comboBox1.Text
+                    + Flags;
+
 
                 //run with another thread
                 Task task = Task.Run(new Action(() =>
@@ -302,11 +319,6 @@ namespace SpigotBuilder
             System.Diagnostics.Process.Start("https://forum.civa.jp/viewtopic.php?f=39&t=109");
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button4_Click_1(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
@@ -322,6 +334,45 @@ namespace SpigotBuilder
         }
 
         private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        {
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://forum.civa.jp/viewtopic.php?f=39&t=109");
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://d.yama2211.jp/SpigotBuilder/");
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
         {
 
         }
