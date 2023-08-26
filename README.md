@@ -20,7 +20,7 @@ Seaoftrees08 氏が作成した [SpigotBuilder](https://github.com/Seaoftrees08/
 
 # 改造版ダウンロード
 [v1.2](https://github.com/yamagami2211/SpigotBuilder/releases/tag/v1.2)  
-[v1.1](https://github.com/yamagami2211/SpigotBuilder/blob/master/src/SpigotBuilder/bin/Release/SpigotBuilder.exe?raw=true) / [v1.1](https://file.yama2211.jp/SpigotBuilder/SpigotBuilder.exe)  
+[v1.1](https://github.com/yamagami2211/SpigotBuilder/blob/master/src/SpigotBuilder/bin/Release/SpigotBuilder.exe?raw=true) / [v1.1Miror](https://file.yama2211.jp/SpigotBuilder/SpigotBuilder.exe)  
 今後はReleaseに上げます。
 
 # 本家版
