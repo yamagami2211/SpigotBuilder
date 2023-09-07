@@ -19,6 +19,7 @@ Seaoftrees08 氏が作成した [SpigotBuilder](https://github.com/Seaoftrees08/
 + compile-if-changed: BuildToolsリポジトリで変更が検知された場合にのみコンパイルする。
 
 # 改造版ダウンロード
+[v1.3](https://github.com/yamagami2211/SpigotBuilder/releases/tag/v1.3)  
 [v1.2](https://github.com/yamagami2211/SpigotBuilder/releases/tag/v1.2)  
 [v1.1](https://github.com/yamagami2211/SpigotBuilder/blob/master/src/SpigotBuilder/bin/Release/SpigotBuilder.exe?raw=true) / [v1.1Miror](https://file.yama2211.jp/SpigotBuilder/SpigotBuilder.exe)  
 今後はReleaseに上げます。
