@@ -259,7 +259,7 @@
             this.linkLabel2.Size = new System.Drawing.Size(133, 12);
             this.linkLabel2.TabIndex = 24;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "改造版SpigotBuilder v1.2";
+            this.linkLabel2.Text = "改造版SpigotBuilder v1.3";
             this.toolTip1.SetToolTip(this.linkLabel2, "改造版SpigotBuilderのページを開きます");
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
@@ -313,6 +313,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Spigot Builder";
             this.Load += new System.EventHandler(this.Form1_Load);

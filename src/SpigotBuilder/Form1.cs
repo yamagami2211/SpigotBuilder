@@ -30,7 +30,7 @@ namespace SpigotBuilder
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
 
         private void Form1_ShownAsync(object sender, EventArgs e)
