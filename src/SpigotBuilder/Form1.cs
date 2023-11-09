@@ -156,10 +156,10 @@ namespace SpigotBuilder
                 if (checkBox1.Checked) Flags += " --disable-certificate-check";
                 if (checkBox2.Checked) Flags += " --disable-java-check";
                 if (checkBox3.Checked) Flags += " --dont-update";
-                if (checkBox4.Checked) Flags += " --generate-source";
+                if (checkBox4.Checked) Flags += " --skip-compile";
                 if (checkBox5.Checked) Flags += " --generate-docs";
                 if (checkBox6.Checked) Flags += " --compile craftbukkit";
-                if (checkBox6.Checked) Flags += " --compile-if-changed";
+                if (checkBox7.Checked) Flags += " --compile-if-changed";
 
                 //make command
                 string cd_command = @"cd " + file;
@@ -369,7 +369,7 @@ namespace SpigotBuilder
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://d.yama2211.jp/SpigotBuilder/");
+            System.Diagnostics.Process.Start("https://yama2211.jp/document/SpigotBuilder/");
         }
 
         private void label4_Click_1(object sender, EventArgs e)
