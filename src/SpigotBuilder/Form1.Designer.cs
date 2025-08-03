@@ -52,6 +52,8 @@
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -287,11 +289,35 @@
             this.label4.TabIndex = 25;
             this.label4.Text = "Command Line Flags";
             // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(376, 88);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(42, 16);
+            this.checkBox8.TabIndex = 26;
+            this.checkBox8.Text = "dev";
+            this.toolTip1.SetToolTip(this.checkBox8, "ビルド環境そのものを構築します。\r\nバージョンチェック・Javaバージョンチェック・Minecraftのバージョン検索を無効にします。");
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(424, 88);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(89, 16);
+            this.checkBox9.TabIndex = 27;
+            this.checkBox9.Text = "experimental";
+            this.toolTip1.SetToolTip(this.checkBox9, "Spigot/CraftBukkit の実験的バージョンを基にビルドします。");
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(522, 500);
+            this.Controls.Add(this.checkBox9);
+            this.Controls.Add(this.checkBox8);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.checkBox7);
@@ -347,6 +373,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox checkBox9;
     }
 }
 

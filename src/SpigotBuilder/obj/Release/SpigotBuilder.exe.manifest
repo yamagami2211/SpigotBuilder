@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpigotBuilder.exe" size="59392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpigotBuilder.exe" size="59904">
       <assemblyIdentity name="SpigotBuilder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fYehLl2UZZYEcLjMZvpCOdQqc6Uxm9eLkMJ3uhE9yA4=</dsig:DigestValue>
+        <dsig:DigestValue>f4i3yBD0A8Fg9pof7xrK6hRHi0ouaEaRhRm7VfejooI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

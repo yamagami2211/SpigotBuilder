@@ -154,13 +154,15 @@ namespace SpigotBuilder
 
                 //CheckBox BuildTools Flags
                 string Flags = "";
-                if (checkBox1.Checked) Flags += " --disable-certificate-check";
-                if (checkBox2.Checked) Flags += " --disable-java-check";
-                if (checkBox3.Checked) Flags += " --dont-update";
-                if (checkBox4.Checked) Flags += " --skip-compile";
-                if (checkBox5.Checked) Flags += " --generate-docs";
-                if (checkBox6.Checked) Flags += " --compile craftbukkit";
-                if (checkBox7.Checked) Flags += " --compile-if-changed";
+                if (checkBox1.Checked) Flags += " --disable-certificate-check"; //証明書チェック無効化
+                if (checkBox2.Checked) Flags += " --disable-java-check"; //Javaバージョンチェックの無効化
+                if (checkBox3.Checked) Flags += " --dont-update"; //Gitからアップデートを取得しない
+                if (checkBox4.Checked) Flags += " --compile NONE"; //コンパイルをスキップ
+                if (checkBox5.Checked) Flags += " --generate-docs"; //JavaDocを生成
+                if (checkBox6.Checked) Flags += " --compile craftbukkit"; //craftbukkitを生成
+                if (checkBox7.Checked) Flags += " --compile-if-changed"; //BuildTools のリポジトリで変更が検出された場合のみコンパイル
+                if (checkBox8.Checked) Flags += " --dev"; //BuildTools のバージョンチェック、Java のバージョンチェック、Minecraft のバージョン検索を無効
+                if (checkBox9.Checked) Flags += " --experimental"; //Spigot/CraftBukkit の実験的バージョンを基にビルド
 
                 //make command
                 string cd_command = @"cd " + file;
